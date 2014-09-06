@@ -36,6 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'south',
+    'django_extensions',
+    # nuestras apps
+    'core',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -76,5 +80,5 @@ try:
     from settings_local import *    # noqa
 except:
     print "Es necesario que definas tu settings_local";
-    exit
+    exit()
 
