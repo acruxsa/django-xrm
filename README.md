@@ -5,9 +5,13 @@ XRM realizado en Django.
 
 Características (parcial):
 --------------------------
+- Tipo de contacto personalizable.
 - Enlazar perfiles a redes sociales.
-- Envio de mail.
+- Envío de mail.
 - Geolocalización. 
+- Imagen de contacto.
+- Importación/Exportación.
+- Envío de SMS.
 
 ¿Cómo colaborar?
 ----------------
