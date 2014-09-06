@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>TipoIdentificador</td>
+            <td>Identificador</td>
+        </tr>
+        {% for p in object_list %}
+        <tr>
+            <td>{{ p.firstname }}</td>
+            <td>{{ p.lastname }}</td>
+            <td>{{ p.identification_type }}</td>
+            <td>{{ p.identification }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
