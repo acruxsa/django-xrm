@@ -54,3 +54,5 @@ docs/_build/
 
 # Propias
 settings_local.py
+profiles_images
+djangoxrm.db
