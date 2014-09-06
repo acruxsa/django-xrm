@@ -76,5 +76,5 @@ try:
     from settings_local import *    # noqa
 except:
     print "Es necesario que definas tu settings_local";
-    exit
+    exit()
 
