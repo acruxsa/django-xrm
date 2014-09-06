@@ -56,3 +56,4 @@ docs/_build/
 settings_local.py
 profiles_images
 djangoxrm.db
+.idea
