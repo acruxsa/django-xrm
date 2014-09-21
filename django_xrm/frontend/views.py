@@ -5,7 +5,7 @@ from core.models import Person
 
 
 class PersonListView(ListView):
-    template_name = "frontend/index.html"
+    template_name = "frontend/person_list.html"
     queryset = Person.objects.all()
 
 

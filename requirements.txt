@@ -3,3 +3,4 @@ south
 psycopg2
 pillow
 django_extensions
+django-bootstrap3
