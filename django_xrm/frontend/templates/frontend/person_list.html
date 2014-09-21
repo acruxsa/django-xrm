@@ -1,0 +1,25 @@
+{% extends "frontend/base.html" %}
+{% load bootstrap3 %}
+{% block title %}
+    Personas
+{% endblock %}
+{% block content %}
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>TipoIdentificador</td>
+                <td>Identificador</td>
+            </tr>
+        </thead>
+        {% for p in object_list %}
+        <tr>
+            <td>{{ p.firstname }}</td>
+            <td>{{ p.lastname }}</td>
+            <td>{{ p.identification_type }}</td>
+            <td>{{ p.identification }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
